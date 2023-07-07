@@ -1,0 +1,20 @@
+{
+    "name": "globalVisibilityConfiguration",
+    "title": "Global Visibility Configuration",
+    "subTitle": "To configure global visibility SP",
+    "version": "1.0.0",
+    "published_date": 1688565040,
+    "releaseNotes": "unavailable",
+    "metadata": {
+        "description": "",
+        "pages": [],
+        "certified": "No",
+        "publisher": "Fortinet",
+        "compatibility": [
+            "7.4.1"
+        ],
+        "standalone": true,
+        "windowClass": "Full Width"
+    },
+    "development": false
+}
