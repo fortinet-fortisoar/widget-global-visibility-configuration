@@ -19,10 +19,8 @@
         function cancel() {
             $uibModalInstance.dismiss('cancel');
         }
-
         function save() {
             $uibModalInstance.close($scope.config);
         }
-
     }
 })();
