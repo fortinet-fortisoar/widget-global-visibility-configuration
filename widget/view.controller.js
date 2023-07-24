@@ -100,7 +100,7 @@
     }
       
     function close(){
-        // triggerPlaybook();
+        triggerPlaybook();
         $scope.$parent.$parent.$parent.$ctrl.handleClose();
     }
 
@@ -138,7 +138,7 @@
         {
               "request": $scope.selectedEnv
         }
-        var queryUrl = '/api/triggers/1/notrigger/936a5236-e7ca-4c44-b3cf-cce8937df365';
+        var queryUrl = '/api/triggers/1/notrigger/6b75c2ae-76b1-4dd7-aef0-baf7f053c579';
         $http.post(queryUrl, queryPayload).then(function (response) {
             console.log(response);
         });
