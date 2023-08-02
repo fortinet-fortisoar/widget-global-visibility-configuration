@@ -26,6 +26,7 @@
     $scope.saveConnector = saveConnector;
       
 
+    //when save is enabled disable next and back
     function saveConnector(saveFrom) {
       var data = angular.copy($scope.connector);
       if(CommonUtils.isUndefined(data)) {
@@ -138,6 +139,7 @@
         {
               "request": $scope.selectedEnv
         }
+        // add a tag to the playbook, get the playbook instead of hardcoding the playbook iri
         var queryUrl = '/api/triggers/1/notrigger/6b75c2ae-76b1-4dd7-aef0-baf7f053c579';
         $http.post(queryUrl, queryPayload).then(function (response) {
             console.log(response);
