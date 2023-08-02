@@ -41,8 +41,7 @@
                   <div class="margin-top-negative-10 padding-left-10">
                       <p class="font-size-14 margin-bottom-0">Review and add configurations for Remote FortiSOAR connector.</p><br/>
                   </div>
-                  <div data-ng-if="selectedConnector" class="margin-top-md padding-left-0 padding-right-0 connector-config-width" data-ng-include="'app/settings/connectorConfig.html'"> 
-			  </div>
+                  <div data-ng-if="selectedConnector" class="margin-top-md padding-left-0 padding-right-0 connector-config-width" data-ng-include="'app/settings/connectorConfig.html'"> </div>
                 <div data-ng-show="selectedConnector" class="col-md-12">
                   <button type="button" class="btn btn-primary" data-ng-disabled="!(formHolder.connectorForm.$valid && formHolder.connectorForm.$dirty)" data-ng-click="saveConnector()" id="submit-remote-fortisoar-config-add-btn"><i class="icon icon-check margin-right-sm"></i>Save</button>
     <button type="button" class="btn btn-default" data-ng-disabled="processing" data-ng-click="closeConfiguration()" id="cancel-remote-fortisoar-config-add-btn"><i class="icon icon-close margin-right-sm"></i>Cancel</button>
