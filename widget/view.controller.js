@@ -29,15 +29,10 @@
     //when save is enabled disable next and back
     function saveConnector(saveFrom) {
       var data = angular.copy($scope.connector);
-      if(CommonUtils.isUndefined(data)) {
+      if(CommonUtils.isUndefined(data) || !currentPermissionsService.availablePermission('connectors', 'update')) {
         $scope.statusChanged = false;
         return;
       }
-      if(!currentPermissionsService.availablePermission('connectors', 'update')) {
-        $scope.statusChanged = false;
-        return;
-      }
-
       var newConfiguration, newConfig, deleteConfig;
       newConfiguration = false;
       if(saveFrom !== 'deleteConfigAndSave'){
