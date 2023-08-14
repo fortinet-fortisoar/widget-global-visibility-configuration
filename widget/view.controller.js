@@ -13,7 +13,7 @@
       $scope: $scope
     });
 
-    var tagToIncludePlaybook = 'create_global_visibility_records'
+    var tagToIncludePlaybook = 'create_global_visibility_records';
     $scope.processingConnector = false;
     $scope.close = close;
     $scope.movePrevious = movePrevious;
