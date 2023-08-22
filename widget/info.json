@@ -3,7 +3,6 @@
     "title": "Global Visibility Configuration",
     "subTitle": "To configure Remote FortiSOAR connector",
     "version": "1.0.0",
-    "help_online": "https://github.com/fortinet-fortisoar/widget-gobal-visibility-configuration/blob/release/1.0.0/README.md",
     "published_date": 1688565040,
     "releaseNotes": "unavailable",
     "metadata": {
@@ -13,6 +12,9 @@
         "publisher": "Fortinet",
         "compatibility": [
             "7.3.1"
+        ],
+        "help_online": "https://github.com/fortinet-fortisoar/widget-gobal-visibility-configuration/blob/release/1.0.0/README.md",
+        "snapshots": [
         ],
         "standalone": true,
         "windowClass": "Full Width"
