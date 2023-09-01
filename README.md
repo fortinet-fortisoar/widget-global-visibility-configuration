@@ -1,6 +1,6 @@
 ## Release Information
 
-- **Version**: 1.0.2
+- **Version**: 1.0.0
 
 - **Certified**: No
 
@@ -8,9 +8,7 @@
 
 - **Compatibility**: 7.3.1 and later
 
-- **Applicable**: Dashboards
-
-- [Release Notes](./widget/release_notes.md)
+- **Applicable**: Global Visibility Solution Pack
 
 ## Overview
 

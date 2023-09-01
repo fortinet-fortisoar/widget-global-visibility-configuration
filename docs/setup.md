@@ -5,16 +5,16 @@
 
 1. To install a widget, click **Content Hub** > **Discover**.
 
-2. From the list of solution pack that appears, search for and select **Global Visibility**. 
+2. From the list of widgets that appears, search for and select **Global Visibility**. 
 
-3. Click the card of the **Global Visibility** solution pack card.
+3. Click the **Global Visibility** widget card to begin installation.
 
-4. Click **Configure** on the bottom to begin configuration.
+4. Click **Configure** on the lower part of the screen to begin configuration.
 
 
 # Configuration
 
-
+This widget has no configuration settings. Check the [Usage](./usage.md) section to configure your FortiSOAR&trade; environment for Global Visibility.
 
 | [Usage](./usage.md) |
 |---------------------|
